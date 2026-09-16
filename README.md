@@ -1,64 +1,75 @@
-# 📚 GoLangBooks: A Curated Collection of Go Programming Books
+<p align="center">
+  <img src="assets/readme-cover.png" alt="An illustrated stack of programming books in a calm blue workspace" width="100%">
+</p>
 
-Welcome to **GoLangBooks**! This repository is a curated collection of some of the best books for learning and mastering the Go programming language. Whether you're a beginner just starting with Go or an experienced developer looking to deepen your expertise, this list has something for everyone.
+<h1 align="center">GoLangBooks</h1>
+
+<p align="center"><strong>A community-curated shelf for learning Go, from first programs to production architecture.</strong></p>
+
+<p align="center">
+  <a href="https://github.com/diptomondal007/GoLangBooks/stargazers"><img src="https://img.shields.io/github/stars/diptomondal007/GoLangBooks?style=flat-square" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/diptomondal007/GoLangBooks?style=flat-square" alt="License"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-00ADD8?style=flat-square" alt="Contributions welcome"></a>
+</p>
+
+GoLangBooks brings useful Go reading material into one navigable collection. The library is grouped by topic, filenames are predictable, and the catalog reflects what is actually available in the repository.
+
+> [!IMPORTANT]
+> Only contribute material that is legally redistributable. Copyright remains with each book's author and publisher; the repository license applies only to original repository content. See [Copyright and licensing](#copyright-and-licensing).
+
+## Start here
+
+| If you want to… | Suggested starting point |
+| --- | --- |
+| Learn the language | [Fundamentals](books/fundamentals/) |
+| Practice algorithms and patterns | [Data structures & patterns](books/data-structures-and-patterns/) |
+| Build APIs and services | [Web & services](books/web-and-services/) |
+| Explore low-level or security work | [Systems & security](books/systems-and-security/) |
+| Design production systems | [Architecture & advanced](books/architecture-and-advanced/) |
+
+The full [book catalog](docs/CATALOG.md) lists every title and available format.
+
+## Library at a glance
+
+```text
+GoLangBooks/
+├── assets/                         # README artwork
+├── books/
+│   ├── architecture-and-advanced/
+│   ├── data-structures-and-patterns/
+│   ├── fundamentals/
+│   ├── systems-and-security/
+│   └── web-and-services/
+├── docs/
+│   └── CATALOG.md                  # Complete library index
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
+
+## How to use the collection
+
+1. Choose a learning goal from the table above.
+2. Open the matching topic directory or browse the [complete catalog](docs/CATALOG.md).
+3. Read the PDF in a browser or download the EPUB for your preferred reader.
+
+This repository is a reading library, not a prescribed curriculum. Start with one fundamentals title, build something small, then use the specialist sections when a project gives you a reason to go deeper.
+
+## Contributing
+
+Suggestions, corrections, and new legally redistributable resources are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request; it documents the selection criteria, directory rules, and filename conventions.
+
+Community participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Copyright and licensing
+
+The [Unlicense](LICENSE) covers original repository materials such as its documentation and artwork. It does **not** relicense third-party books. Each book remains subject to the rights and terms set by its author and publisher.
+
+If you are a rights holder and believe material should not be hosted here, please [open a removal request](https://github.com/diptomondal007/GoLangBooks/issues/new) with the title and supporting details so the maintainers can review it promptly.
 
 ---
 
-## 📖 What's Inside?
-
-Below is a short introduction to each book included in this repository:
-
-### 1. **[The Go Programming Language](https://www.gopl.io/) by Alan A. A. Donovan and Brian W. Kernighan**
-   - A comprehensive guide to Go, written by industry experts. This book is perfect for programmers who want to learn the language deeply and systematically. It covers Go’s core principles, syntax, and idiomatic best practices.
-
-### 2. **[Go in Action](https://www.manning.com/books/go-in-action) by William Kennedy, Brian Ketelsen, and Erik St. Martin**
-   - A hands-on guide for developers who want to build real-world applications with Go. This book dives into practical examples and offers tips for creating robust and scalable systems.
-
-### 3. **[Concurrency in Go: Tools and Techniques for Developers](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/) by Katherine Cox-Buday**
-   - This book focuses on Go’s concurrency model, one of the language's standout features. Learn how to build highly concurrent and parallel systems while avoiding common pitfalls.
-
-### 4. **[Go Web Programming](https://www.manning.com/books/go-web-programming) by Sau Sheong Chang**
-   - Ideal for developers building web applications, this book teaches you how to create dynamic web applications and APIs using Go's robust standard library and third-party packages.
-
-### 5. **[Programming with Go: Language Foundations](https://nostarch.com/programmingwithgo) by Jon Bodner**
-   - A beginner-friendly book that introduces the Go programming language with clear explanations, real-world examples, and exercises. Great for newcomers to Go.
-
-### 6. **[Go Design Patterns](https://www.packtpub.com/product/go-design-patterns/9781786466204) by Mario Castro Contreras**
-   - This book helps you implement common design patterns in Go and explores idiomatic ways to solve complex software engineering challenges.
-
-### 7. **[Mastering Go](https://www.packtpub.com/product/mastering-go-third-edition/9781801079313) by Mihalis Tsoukalos**
-   - This book dives deep into advanced Go concepts such as testing, optimization, system programming, and network communication. Perfect for experienced developers looking to master the language.
-
-### 8. **[Hands-On Data Structures and Algorithms with Go](https://www.packtpub.com/product/hands-on-data-structures-and-algorithms-with-go/9781788995573) by Bhagvan Kommadi**
-   - A practical guide to learning and implementing efficient data structures and algorithms in Go, complete with coding examples and real-world use cases.
-
-### 9. **[Introducing Go](https://www.oreilly.com/library/view/introducing-go/9781491941997/) by Caleb Doxsey**
-   - A lightweight and approachable introduction to Go for beginners, offering simple explanations and practical examples to get you started quickly.
-
-### 10. **[Go Programming Blueprints](https://www.packtpub.com/product/go-programming-blueprints-second-edition/9781788395908) by Mat Ryer**
-   - A project-based book that helps you learn Go by building applications like chat systems, web services, and distributed systems.
-
-### 11. **[Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) by Chris James**
-   - This free online book takes a test-driven development approach to learning Go, ensuring you write clean, testable, and maintainable code from the start.
-
----
-
-## 🚀 Why Go?
-
-Go is a modern, efficient, and powerful programming language designed by Google. It’s ideal for building reliable and scalable software systems, making it a popular choice for developers working on cloud-based and distributed applications.
-
----
-
-## 🤝 Contributing
-
-Found an amazing Go book that’s missing from this list? Contributions are welcome! Open a pull request or create an issue with your suggestion.
-
----
-
-## 📢 Spread the Word!
-
-If you find this repository helpful, don’t forget to give it a ⭐ and share it with others in the Go community!
-
----
-
-Happy coding with Go! 🦫
+<div align="center">
+  Made for curious Go developers. If the shelf helps you, consider starring the repository or improving the catalog.
+</div>
